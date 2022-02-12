@@ -57,21 +57,6 @@ Shravan Vallaban <br>
 
 ![Deployment Diagram](https://user-images.githubusercontent.com/23494069/144701112-95b6c2ed-b18e-4996-9902-fcfbee2070c6.png)
 
-# Design Decisions:
-
-* ***Database : Why NoSQL?*** 
-
-   * In general we chose NoSQL because they support their own access languages that can interpret the data being stored, rather than require a relational model within the underlying database.
-   * This more developer-centric mentality to the design of databases and their access application programming interfaces (API) are the reason NoSQL databases have become very popular among application developers.
-   * Application developers don’t need to know the inner workings and vagaries of databases before using them.
-   * NoSQL databases, in general, helps developers to work on what is required in the applications instead of trying to force relational databases to do what is required.
-
-* ***Database : Why MongoDB over other NoSQLs?***
-
-   * We chose MongoDB over other NoSQL databases because they easily support multiple levels of nested data unlike others where you have define the structure and type while creating the table.
-   * When compared to Cassandra, Mongo allows us to choose secondary indexes along with the flexibility in the data model.
-   * Unlike any other NoSQL DB Mongo is Schema-less, we don't have to define the schema in the beginning and it also allows the developers to change the schema dynamically
-
 # Feature Set
    
 ### ***Employee/Admin***
